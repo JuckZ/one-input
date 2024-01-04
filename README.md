@@ -57,7 +57,10 @@ https://github.com/rime/weasel/pull/1047
 
 ## [小鹤音形配置](https://itx.ink/2018/11/21/SHARE_MY_RIME/)
 
-请到[小鹤双拼官方论坛](http://www.flypy.com/bbs/forum.php)的“小鹤音形 · 挂接版块”找到“[rime 平台解决方案](http://www.flypy.com/bbs/forum.php?mod=viewthread&tid=184&extra=page%3D1)”在该贴中的链接下载rime的配置文件。
+http://flypy.ysepan.com/
+https://suo.im/xh
+https://github.com/amorphobia/openfly
+
 
 ## 如何更新词库
 
