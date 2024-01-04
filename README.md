@@ -94,7 +94,11 @@ https://github.com/tswwe/my-rime-lua
 
 - [ ] https://xkinput.github.io/
 https://zhuanlan.zhihu.com/p/607785939
-- [x] https://hu0w1jn4xq.feishu.cn/docx/doxcnjFlDmWbCPvBMkVQHJHRhOh
+- [x] [键道 630](https://hu0w1jn4xq.feishu.cn/docx/doxcnjFlDmWbCPvBMkVQHJHRhOh)
+- [ ] [‌⁢​‍​​🐈「 星空键道 - 星猫版 」📋笔记 - 飞书云文档](https://hu0w1jn4xq.feishu.cn/docx/ZgQ8deGPlozhWCxOyeucBvHJnPe)
+- [ ] [宇浩输入法](https://zhuyuhao.com/yuhao/)
+- [ ] [86版极点五笔](https://github.com/KyleBing/rime-wubi86-jidian)
+- [ ] [🍀四叶草输入法](https://www.fkxxyz.com/d/cloverpinyin/)
 https://gitee.com/xkinput/Rime_JD
 
 
