@@ -44,7 +44,10 @@ https://github.com/rime/weasel/pull/1047
 ## TODO
 
 - [x] [如何在Windows/Linux下的Rime使用Vim模式 - 知乎](https://zhuanlan.zhihu.com/p/654489636)
-- [!] 键盘双拼映射图 可以参考obs的[input-overlay](https://github.com/univrsal/input-overlay)
+- [!] 键盘双拼映射图
+  - 可以参考obs的[input-overlay](https://github.com/univrsal/input-overlay)
+  - 使用现成的方案[键魂](https://github.com/isPoto/KeySoul)
+  - https://api.ihint.me/shuang/ 或者 手机<需复制到微信>：#小程序://双拼练习/S4NNm8kAAuu0L4C
 - [ ] linux尝试配置 iOS 配置 对比fcitx和ibus
 - [ ] 配置个人的小鹤音形和小鹤双拼
 - [ ] 配置个人词库（AI、程序员、前后端） 个人密码管理（快捷输入） 跨端输入
@@ -54,6 +57,7 @@ https://github.com/rime/weasel/pull/1047
   - [ ] 搜狗词库下载
   - [ ] 词库更新脚本
 - [ ] 清理冗余文件、对当前文件以及其功能进行注释
+  - [ ] 整理文件夹结构 区分系统 common等
 
 ## [小鹤音形配置](https://itx.ink/2018/11/21/SHARE_MY_RIME/)
 
@@ -81,3 +85,17 @@ https://github.com/LufsX/rime
 https://github.com/qujihan/Rime
 
 https://github.com/brglng/rime-xhup
+
+## 更多脚本扩展
+
+https://github.com/tswwe/my-rime-lua
+
+## 学习资料
+
+- [ ] https://xkinput.github.io/
+https://zhuanlan.zhihu.com/p/607785939
+- [x] https://hu0w1jn4xq.feishu.cn/docx/doxcnjFlDmWbCPvBMkVQHJHRhOh
+https://gitee.com/xkinput/Rime_JD
+
+
+Proud丶Cat、热热、浮生、千年蟲这些人的GitHub
