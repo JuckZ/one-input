@@ -57,9 +57,12 @@ https://github.com/rime/weasel/pull/1047
 
 ## [小鹤音形配置](https://itx.ink/2018/11/21/SHARE_MY_RIME/)
 
-http://flypy.ysepan.com/
+
 https://suo.im/xh
 https://github.com/amorphobia/openfly
+
+下载官方[macOS版小鹤音形](http://ys-n.ysepan.com/116124318/319108762/j7427663656LGLTgUHjF81/%E5%B0%8F%E9%B9%A4%E9%9F%B3%E5%BD%A2%E2%80%9C%E9%BC%A0%E9%A1%BB%E7%AE%A1%E2%80%9Dfor%20macOS.zip?lx=xz)，解压后放到Rime的用户文件夹下，如果目录变更，则直接访问其[永硕网盘](http://flypy.ysepan.com/)下载。
+
 
 
 ## 如何更新词库

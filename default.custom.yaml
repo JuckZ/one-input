@@ -2,6 +2,7 @@ patch:
   schema_list:
     - schema: luna_pinyin_simp # 朙月拼音
     - schema: double_pinyin_flypy # 小鹤双拼
+    - schema: flypy # 官方小鹤音形
     - schema: xhup # 小鹤音形
     - schema: xhup_express # 小鹤音形·连打
     - schema: xhup_fluency # 小鹤音形·语句流
