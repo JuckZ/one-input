@@ -31,6 +31,8 @@ d-----          2024/1/4      9:02                build
 db是否需要同步？是否会有冲突？
 - [ ] https://github.com/rime/plum 自动部署和更新
 
+https://github.com/wzxmer/rime-txjx/blob/main/iCloud%E5%90%8C%E6%AD%A5%E6%95%99%E7%A8%8B.md
+
 ## 再次定制可以参考
 
 https://github.com/ssnhd/rime/compare/master...Hug125:rime:master
@@ -58,6 +60,7 @@ https://github.com/rime/weasel/pull/1047
   - [ ] 词库更新脚本
 - [ ] 清理冗余文件、对当前文件以及其功能进行注释
   - [ ] 整理文件夹结构 区分系统 common等
+  - [ ] 取消rime.lua
 
 ## [小鹤音形配置](https://itx.ink/2018/11/21/SHARE_MY_RIME/)
 
