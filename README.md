@@ -44,15 +44,29 @@ https://github.com/rime/weasel/pull/1047
 ## TODO
 
 - [x] [如何在Windows/Linux下的Rime使用Vim模式 - 知乎](https://zhuanlan.zhihu.com/p/654489636)
-- [!] 键盘双拼映射图
+- [!] 键盘双拼映射图 可以参考obs的[input-overlay](https://github.com/univrsal/input-overlay)
 - [ ] linux尝试配置 iOS 配置 对比fcitx和ibus
-- [ ] 配置个人词库（AI、程序员、前后端） 个人密码读取 跨端输入 AI支持，英文纠错
+- [ ] 配置个人的小鹤音形和小鹤双拼
+- [ ] 配置个人词库（AI、程序员、前后端） 个人密码管理（快捷输入） 跨端输入
+  - [ ] AI补全支持（自托管）
+  - [ ] 英文语法纠错
+  - [ ] 词库验证
+  - [ ] 搜狗词库下载
+  - [ ] 词库更新脚本
+- [ ] 清理冗余文件、对当前文件以及其功能进行注释
 
 ## [小鹤音形配置](https://itx.ink/2018/11/21/SHARE_MY_RIME/)
 
 请到[小鹤双拼官方论坛](http://www.flypy.com/bbs/forum.php)的“小鹤音形 · 挂接版块”找到“[rime 平台解决方案](http://www.flypy.com/bbs/forum.php?mod=viewthread&tid=184&extra=page%3D1)”在该贴中的链接下载rime的配置文件。
 
 [其他小鹤码表](https://github.com/brglng/rime-xhup)
+
+## 如何更新词库
+
+下载并更新即可
+https://github.com/iDvel/rime-ice/raw/main/opencc/emoji.txt
+https://github.com/iDvel/rime-ice/raw/main/cn_dicts/8105.dict.yaml
+
 
 ## 其他可参考配置
 

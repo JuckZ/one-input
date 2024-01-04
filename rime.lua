@@ -1,35 +1,23 @@
-function date_translator(input, seg)
-    if (input == "rq") then
-        --- Candidate(type, start, end, text, comment)
-        yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d"), ""))
-        yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), ""))
-        yield(Candidate("date", seg.start, seg._end, os.date("%m-%d"), ""))
-        yield(Candidate("date", seg.start, seg._end, os.date("%Y/%m/%d"), ""))
-    end
-    if (input == "sj") then
-        --- Candidate(type, start, end, text, comment)
-        yield(Candidate("time", seg.start, seg._end, os.date("%H:%M"), ""))
-        yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), ""))
-    end
-    if (input == "xq") then
-        local weakTab = {'日', '一', '二', '三', '四', '五', '六'}
-        yield(Candidate("week", seg.start, seg._end, "周"..weakTab[tonumber(os.date("%w")+1)], ""))
-        yield(Candidate("week", seg.start, seg._end, "星期"..weakTab[tonumber(os.date("%w")+1)], ""))
-        yield(Candidate("week", seg.start, seg._end, "礼拜"..weakTab[tonumber(os.date("%w")+1)], ""))
-    end
-end
+-- select_character_processor: 以词定字
+-- 详见 `lua/select_character.lua`
+select_character = require("select_character")
 
---- 过滤器：单字在先
-function single_char_first_filter(input)
-    local l = {}
-    for cand in input:iter() do
-        if (utf8.len(cand.text) == 1) then
-            yield(cand)
-        else
-            table.insert(l, cand)
-        end
-    end
-    for cand in ipairs(l) do
-        yield(cand)
-    end
-end
+-- date_translator: 动态日期时间输入
+-- 详见 `lua/date_translator.lua`
+date_translator = require("date_translator")
+
+-- long_phrase_first: 最长词组和单字在先
+-- 详见 `lua/candidate_sorting/long_phrase_first.lua`
+long_phrase_first = require("candidate_sorting.long_phrase_first")
+
+-- single_char_first: 单字在先
+-- 详见 `lua/candidate_sorting/single_char_first.lua`
+single_char_first = require("candidate_sorting.single_char_first")
+
+-- single_char_only: 只显示单字
+-- 详见 `lua/candidate_sorting/single_char_only.lua`
+single_char_only = require("candidate_sorting.single_char_only")
+
+-- unicode_input: Unicode 输入
+-- 详见 `lua/candidate_sorting/unicode_input.lua`
+unicode_input = require("unicode_input")
