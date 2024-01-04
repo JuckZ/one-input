@@ -59,8 +59,6 @@ https://github.com/rime/weasel/pull/1047
 
 请到[小鹤双拼官方论坛](http://www.flypy.com/bbs/forum.php)的“小鹤音形 · 挂接版块”找到“[rime 平台解决方案](http://www.flypy.com/bbs/forum.php?mod=viewthread&tid=184&extra=page%3D1)”在该贴中的链接下载rime的配置文件。
 
-[其他小鹤码表](https://github.com/brglng/rime-xhup)
-
 ## 如何更新词库
 
 下载并更新即可
@@ -75,3 +73,5 @@ https://github.com/ssnhd/rime
 https://github.com/LufsX/rime
 
 https://github.com/qujihan/Rime
+
+https://github.com/brglng/rime-xhup
