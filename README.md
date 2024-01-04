@@ -47,7 +47,6 @@ https://github.com/rime/weasel/pull/1047
 - [!] 键盘双拼映射图
 - [ ] linux尝试配置 iOS 配置 对比fcitx和ibus
 - [ ] 配置个人词库（AI、程序员、前后端） 个人密码读取 跨端输入 AI支持，英文纠错
-- [ ] lua脚本原理和实践
 
 ## [小鹤音形配置](https://itx.ink/2018/11/21/SHARE_MY_RIME/)
 

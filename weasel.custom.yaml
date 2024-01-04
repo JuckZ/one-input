@@ -6,6 +6,7 @@ patch:
   style/color_scheme: wechat_light
   # 深色主题
   style/color_scheme_dark: wechat_dark
+  style/translucency: true # 背景半透明总开关，不需要关掉即可
 
   # 皮肤主题
   preset_color_schemes:
@@ -407,3 +408,39 @@ patch:
     obsidian.exe:
       ascii_mode: true
       vim_mode: true               # vim
+    wezterm-gui.exe:
+      ascii_mode: true
+    PowerToys.exe:
+      ascii_mode: true
+    PowerToys.PowerLauncher.exe:
+      ascii_mode: true
+    LeagueClientUxRender.exe:
+      ascii_mode: true
+    msedge.exe:
+      ascii_mode: true
+    pycharm.exe:
+      ascii_mode: true
+    idea.exe:
+      ascii_mode: true
+    goland.exe:
+      ascii_mode: true
+    clion.exe:
+      ascii_mode: true
+    pycharm64.exe:
+      ascii_mode: true
+    idea64.exe:
+      ascii_mode: true
+    goland64.exe:
+      ascii_mode: true
+    clion64.exe:
+      ascii_mode: true
+    emacs.exe:
+      ascii_mode: true
+    firefox.exe:
+      ascii_mode: true
+    alacritty.exe:
+      ascii_mode: true
+    WindowsTerminal.exe:
+      ascii_mode: true
+    Termius.exe:
+      ascii_mode: true
