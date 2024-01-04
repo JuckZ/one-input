@@ -1,0 +1,48 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3_dev_0.8
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sun Apr  9 21:00:56 2023"
+  rime_version: 1.8.5
+
+patch:
+  "style/color_scheme": WeChat-keyboard
+  "preset_color_schemes/WeChat-keyboard":
+    name: WeChat-keyboard # 配色取自微信键盘
+    author: zsakvo
+    back_color: 0xFFFFFF # 背景
+    border_color: 0xDDDDDD # 边框
+    text_color: 0x424242 #输入区文字颜色
+    hilited_text_color: 0x424242 # 输入区高亮文字颜色
+    hilited_back_color: 0xDDDDDD # 输入区高亮背景
+    hilited_candidate_text_color: 0xFFFFFF # 第一候选项文字颜色
+    hilited_candidate_back_color: 0x75B100 # 第一候选项背景颜色
+    hilited_comment_text_color: 0x000000 # 注解文字高亮
+    candidate_text_color: 0x525252 # 其他候选项文字颜色
+    comment_text_color: 0x999999 # 其他候选项注解文字
+    label_color: 0xcac9c8 # 预选栏编号颜色
+
+# 候选字的字体格式
+#  "style/font_face": "Microsoft YaHei"
+# 候选字的字体大小
+  "style/font_point": 13
+# 候选字 横排 true / 纵排 false
+  "style/horizontal": false
+# 候选窗 不显示内选区(即拼音区)
+  "style/inline_preedit": true
+# 候选框边框粗细
+  "style/layout/border": 2
+# 候选字间隔
+  "style/layout/candidate_spacing": 5
+# 候选字背景色色块高度
+  "style/layout/hilite_padding": 4
+# 序号和候选字之间的间隔
+  "style/layout/hilite_spacing": 2
+# 候选框左右边距
+  "style/layout/margin_x": 9
+# 候选框上下边距
+  "style/layout/margin_y": 9
+# 候选字背景色块圆角半径
+  "style/layout/round_corner": 6
+# 显示托盘图标
+  "style/display_tray_icon" : true
