@@ -97,6 +97,7 @@ https://github.com/brglng/rime-xhup
 
 ## 词库管理
 
+- [ ] 找到所有需要使用和维护的词库源地址
 - [ ] 配置个人词库（AI、程序员、前后端）
   - [ ] 词库验证
   - [ ] 搜狗词库下载
@@ -107,6 +108,8 @@ https://github.com/brglng/rime-xhup
 下载并更新即可
 https://github.com/iDvel/rime-ice/raw/main/opencc/emoji.txt
 https://github.com/iDvel/rime-ice/raw/main/cn_dicts/8105.dict.yaml
+
+两分词库，下载并解压http://cheonhyeong.com/File/ZHLF_rime_5.0.7z
 
 ## 更多脚本扩展
 
@@ -127,3 +130,7 @@ https://github.com/tswwe/my-rime-lua
 - [x] [顶功与上屏方式 - 知乎](https://zhuanlan.zhihu.com/p/291029476)
 - [x] [https://zhuanlan.zhihu.com/p/292605889](https://zhuanlan.zhihu.com/p/292605889)
 - [ ] [其他资源](https://xkinput.github.io/xxxk-help/#/res)
+
+- https://github.com/LibreService/my_rime
+- https://github.com/rime/rppi
+- https://github.com/rime/plum
