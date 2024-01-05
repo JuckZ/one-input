@@ -49,6 +49,7 @@ https://github.com/rime/weasel/pull/1047
 - [x] 键盘双拼映射图
   - 可以xx参考obs的[input-overlay](https://github.com/univrsal/input-overlay)
   - 使用现成的方案[键魂](https://github.com/isPoto/KeySoul)
+  - https://www.52dazi.cn/home
   - https://api.ihint.me/shuang/ 或者 手机<需复制到微信>：#小程序://双拼练习/S4NNm8kAAuu0L4C
 - [ ] linux尝试配置 iOS 配置 对比fcitx和ibus
 - [ ] 配置个人的小鹤音形和小鹤双拼
@@ -61,6 +62,8 @@ https://github.com/rime/weasel/pull/1047
 - [ ] 清理冗余文件、对当前文件以及其功能进行注释
   - [ ] 整理文件夹结构 区分系统 common等
   - [ ] 取消rime.lua
+- [ ] 研究bin文件的生成
+- [ ] 方案介绍：字海两分结合
 
 ## [小鹤音形配置](https://itx.ink/2018/11/21/SHARE_MY_RIME/)
 
@@ -96,12 +99,16 @@ https://github.com/tswwe/my-rime-lua
 ## 学习资料
 
 - [ ] https://xkinput.github.io/
-https://zhuanlan.zhihu.com/p/607785939
+- [ ] [研习键道 - Rime键道输入法](https://pingshunhuangalex.gitbook.io/rime-xkjd/learn-xkjd)
+- [x] [小小星空](https://xkinput.github.io/xxxk-help/#/schema-xkjd6)
+- [ ] [简述全拼转小鹤转键道- 兼谈键道输入法的入门及优化包](https://zhuanlan.zhihu.com/p/607785939)
 - [x] [键道 630](https://hu0w1jn4xq.feishu.cn/docx/doxcnjFlDmWbCPvBMkVQHJHRhOh)
 - [ ] [‌⁢​‍​​🐈「 星空键道 - 星猫版 」📋笔记 - 飞书云文档](https://hu0w1jn4xq.feishu.cn/docx/ZgQ8deGPlozhWCxOyeucBvHJnPe)
 - [ ] [宇浩输入法](https://zhuyuhao.com/yuhao/)
 - [ ] [86版极点五笔](https://github.com/KyleBing/rime-wubi86-jidian)
 - [ ] [🍀四叶草输入法](https://www.fkxxyz.com/d/cloverpinyin/)
 https://gitee.com/xkinput/Rime_JD
-
-ovv
+- [ ] [小鹤音形编码查询](http://react.xhup.club/search)
+- [ ] [顶功与上屏方式 - 知乎](https://zhuanlan.zhihu.com/p/291029476)
+- [x] [https://zhuanlan.zhihu.com/p/292605889](https://zhuanlan.zhihu.com/p/292605889)
+- [ ] [其他资源](https://xkinput.github.io/xxxk-help/#/res)

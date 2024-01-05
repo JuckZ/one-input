@@ -6,3 +6,4 @@ sync/
 test/
 installation.yaml
 user.yaml
+.idea/
