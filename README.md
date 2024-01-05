@@ -46,8 +46,8 @@ https://github.com/rime/weasel/pull/1047
 ## TODO
 
 - [x] [如何在Windows/Linux下的Rime使用Vim模式 - 知乎](https://zhuanlan.zhihu.com/p/654489636)
-- [!] 键盘双拼映射图
-  - 可以参考obs的[input-overlay](https://github.com/univrsal/input-overlay)
+- [x] 键盘双拼映射图
+  - 可以xx参考obs的[input-overlay](https://github.com/univrsal/input-overlay)
   - 使用现成的方案[键魂](https://github.com/isPoto/KeySoul)
   - https://api.ihint.me/shuang/ 或者 手机<需复制到微信>：#小程序://双拼练习/S4NNm8kAAuu0L4C
 - [ ] linux尝试配置 iOS 配置 对比fcitx和ibus
@@ -104,5 +104,4 @@ https://zhuanlan.zhihu.com/p/607785939
 - [ ] [🍀四叶草输入法](https://www.fkxxyz.com/d/cloverpinyin/)
 https://gitee.com/xkinput/Rime_JD
 
-
-Proud丶Cat、热热、浮生、千年蟲这些人的GitHub
+ovv
