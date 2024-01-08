@@ -55,6 +55,17 @@ d-----          2024/1/4      9:02                build
 - [ ] [方案介绍：字海两分](https://xkinput.github.io/xxxk-help/#/schema-zhlf)结合
 - [!] 研究星空键道6的安装流程是如何的，以及 weasel-expansion 是什么，体验原版的键道6，然后再自定义和升级星猫键道
 
+
+## 键道6配置生成
+
+```sh
+git clone https://github.com/xkinput/Rime_JD
+# 复制 rime 文件夹
+# 复制 Tools\SystemTools\rime\Windows "Windows" 替换成目标系统的路径
+# 复制 Tools\SystemTools\WindowsTools\用户数据 "WindowsTools" 替换成目标系统的路径，如果文件夹中是脚本，则阅读和执行
+# 删除default.yam（暂时不删除）
+```
+
 ## 方案
 
 ### 星猫键道
