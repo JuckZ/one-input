@@ -53,8 +53,6 @@ d-----          2024/1/4      9:02                build
   - [ ] 取消rime.lua
 - [ ] 研究bin文件的生成
 - [ ] [方案介绍：字海两分](https://xkinput.github.io/xxxk-help/#/schema-zhlf)结合
-- [!] 研究星空键道6的安装流程是如何的，以及 weasel-expansion 是什么，体验原版的键道6，然后再自定义和升级星猫键道
-
 
 ## 键道6配置生成
 
@@ -69,8 +67,6 @@ git clone https://github.com/xkinput/Rime_JD
 ## 方案
 
 ### 星猫键道
-
-> 当前方案
 
 ### 星空键道6
 
