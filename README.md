@@ -6,6 +6,7 @@
 
 windows: `C:\Users\%username%\AppData\Roaming\Rime`
 mac: `~/Library/Rime`
+iOS: Hamster的RIME文件夹，将xmjd6-rere中所有文件覆盖进去即可
 
 需要关注如下文件：
 default.custom.yaml
@@ -36,7 +37,11 @@ d-----          2024/1/4      9:02                build
 
 ### 参考
 
+- [仓输入法 - ihsiao-软件开发技术分享](https://ihsiao.com/apps/hamster/)
 - [iCloud同步教程](https://github.com/wzxmer/rime-txjx/blob/main/iCloud%E5%90%8C%E6%AD%A5%E6%95%99%E7%A8%8B.md)
+- [amorphobia/rime-user-config: Rime 用户配置](https://github.com/amorphobia/rime-user-config)
+- [popilong/ziyong](https://github.com/popilong/ziyong)
+- [Attiv/jd6](https://github.com/Attiv/jd6)
 
 ## TODO
 
@@ -142,3 +147,13 @@ https://github.com/tswwe/my-rime-lua
 - https://github.com/LibreService/my_rime
 - https://github.com/rime/rppi
 - https://github.com/rime/plum
+
+
+## FAQ
+
+IME和TSF
+
+[高优先度接管输入事件导致 Chrome 快捷键失效 · Issue #997 · rime/weasel](https://github.com/rime/weasel/issues/997)
+
+Q: 仓输入法如何自定义配置
+A: [应用设置 · HonKit](https://ihsiao.com/apps/hamster/docs/AppSettings.html#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
