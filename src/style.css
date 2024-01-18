@@ -1,0 +1,17 @@
+:root, body, html {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#drag-region {
+  -webkit-app-region: drag;
+  height: 20px;
+  width: 20px;
+  /* TODO 无效？ */
+  cursor: move;
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  border-radius: 50%;
+  background: orange;
+}

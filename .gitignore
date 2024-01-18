@@ -7,3 +7,5 @@ test/
 installation.yaml
 user.yaml
 .idea/
+node_modules/
+out/

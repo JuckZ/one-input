@@ -1,4 +1,14 @@
-# Rime configuration
+# Ont Input
+
+## Description
+
+> 本项目是基于Rime的配置，主要是为了方便自己使用，也方便其他人使用，如果有任何问题，欢迎提issue。
+
+## Features
+
+键位辅助工具
+
+<a href="#"><img alt="https://juck.site" title="I have a little cool" src="./public/one-input-helper.png"/></a>
 
 ## Installation
 
@@ -58,6 +68,9 @@ d-----          2024/1/4      9:02                build
   - [ ] 取消rime.lua
 - [ ] 研究bin文件的生成
 - [ ] [方案介绍：字海两分](https://xkinput.github.io/xxxk-help/#/schema-zhlf)结合
+- [ ] 键道键位辅助软件
+  - [ ] 增加预设的键位图
+  - [ ] 多平台支持
 
 ## 键道6配置生成
 
