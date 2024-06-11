@@ -1,5 +1,15 @@
 # Ont Input
 
+## TODO
+
+- [ ] 练手项目electron 辅助工具/打字游戏等，配合three.js
+- [ ] 跨全平台安装包，如何实现
+- [ ] [Rime_JD](https://github.com/xkinput/Rime_JD)如何实现的音形输入
+  - [ ] 自制一个
+- [ ] 增加rime-rice词库和搜狗词库以及智能AI词频
+- [ ] 词频词库自动更新和跨端同步、多平台同步
+- [ ] 增加五笔输入法
+
 ## Description
 
 > 本项目是基于Rime的配置，主要是为了方便自己使用，也方便其他人使用，如果有任何问题，欢迎提issue。
@@ -12,25 +22,42 @@
 
 ## Installation
 
-## Config
+## Configration
 
-windows: `C:\Users\%username%\AppData\Roaming\Rime`
-mac: `~/Library/Rime`
+### Windows
+
+configuration path: `%APPDATA%\Rime`
+
+### MacOS
+
+```sh
+brew install --cask squirrel
+```
+<!-- fcitx5-macos -->
+configuration path: `~/Library/Rime`
+
+### Linux
+
+```sh
+pacman -S ibus-rime
+# sudo apt-get install ibus-rime # or fcitx-rime
+# [fcitx-rime](https://github.com/fcitx/fcitx-rime)
+# [fcitx5-rime](https://github.com/fcitx/fcitx5-rime)
+```
+
+
+configuration path: ``
+
+### iOS
+
+1. install Hamster
+
+### Android
+
+[trime](https://github.com/osfans/trime)
+[fcitx5-android](https://github.com/fcitx5-android/fcitx5-android)
 iOS: Hamster的RIME文件夹，将xmjd6-rere中所有文件覆盖进去即可
-
-需要关注如下文件：
-default.custom.yaml
-weasel.custom.yaml
-
-如下文件可能是安装生成的
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----          2024/1/4      9:02                build
--a----          2024/1/4      9:01              0 default.custom.yaml
--a----          2024/1/4      9:02            214 installation.yaml
--a----          2024/1/4      9:04            140 user.yaml
--a----          2024/1/4      9:01              0 weasel.custom.yaml
+Android
 
 ### Vim支持
 
@@ -42,9 +69,6 @@ d-----          2024/1/4      9:02                build
 > 同步需要注意，不要同步install.yaml和user.yaml，这两个文件是本地的配置文件，不同的电脑可能不一样，同步会导致配置文件冲突。
 > build文件夹也不需要同步，这个文件夹是编译生成的，如果需要加入闭源的编译后的bin，则需要同步，如配置小鹤音形时。
 
-- [ ] db是否需要同步？是否会有冲突？
-- [ ] https://github.com/rime/plum 自动部署和更新
-
 ### 参考
 
 - [仓输入法 - ihsiao-软件开发技术分享](https://ihsiao.com/apps/hamster/)
@@ -55,10 +79,19 @@ d-----          2024/1/4      9:02                build
 
 ## TODO
 
+- [ ] xmjd-rere gitrebase + github action 优化
+- [ ] 增加[雾凇拼音](https://dvel.me/posts/rime-ice/)
+- [ ] 通过patch的方式合并各个需要的方案 [my-xmjd6-rere](https://github.com/JuckZ/xmjd6-rere)
+- [ ] lua + AI
+- [ ] 配置模块化 如针对vim的
+- [ ] tools优化
+- [ ] README.md,中文为主
+
 - [-] 键盘双拼映射图，可以xx参考obs的[input-overlay](https://github.com/univrsal/input-overlay)或者参考打字练习部分所涉及的软件
 - [-] 配置个人的小鹤音形和小鹤双拼
 - [ ] linux尝试配置 iOS 配置 对比fcitx和ibus
 - [ ] 密码管理工具
+- [ ] 验证码工具
 - [ ] 跨端输入，可以参考微信输入法
 - [ ] AI（自托管）
   - [ ] 英文语法纠错
@@ -156,10 +189,16 @@ https://github.com/tswwe/my-rime-lua
 - [x] [顶功与上屏方式 - 知乎](https://zhuanlan.zhihu.com/p/291029476)
 - [x] [https://zhuanlan.zhihu.com/p/292605889](https://zhuanlan.zhihu.com/p/292605889)
 - [ ] [其他资源](https://xkinput.github.io/xxxk-help/#/res)
+- [ ] [Rime-dict](https://github.com/gshang2017/rime-dict)
+- [ ] [Rime-sogou](https://github.com/gshang2017/docker/tree/master/rime-sogou)
+- [ ] [scel2txt fork](https://github.com/liziqiang/scel2txt)
+- [ ] [深蓝词库转换](https://github.com/studyzy/imewlconverter)
+- [ ] [docker](https://github.com/gshang2017/docker)
+- [ ] [Rime configuration](https://github.com/alswl/Rime)
+  - [ ] [Makefile](https://github.com/alswl/Rime/blob/master/Makefile)
 
 - https://github.com/LibreService/my_rime
 - https://github.com/rime/rppi
-- https://github.com/rime/plum
 
 
 ## FAQ
